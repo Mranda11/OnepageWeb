@@ -1,0 +1,41 @@
+body{ 
+background-color: black;
+}
+
+h1{ 
+    color: white;
+}
+h3{ 
+color: white;
+}
+
+h5{
+    color: white;
+}
+
+h2{ 
+    color: red;
+}
+
+@keyframes fade { 
+0% { 
+opacity: 0;
+transform: translate(0,4rem);
+}
+100% {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+}
+
+@media (prefers-reduced-motion: no-prefrence) {
+    .in-view {
+        animation: fade 2s 2s both; 
+        }
+        .not-in-view{
+            opacity: 0;
+        
+        }
+}
+
