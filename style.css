@@ -29,7 +29,7 @@ transform: translate(0,4rem);
 
 }
 
-@media (prefers-reduced-motion: no-prefrence) {
+/* @media (prefers-reduced-motion: no-preference) { */
     .in-view {
         animation: fade 2s 2s both; 
         }
@@ -37,5 +37,5 @@ transform: translate(0,4rem);
             opacity: 0;
         
         }
-}
+/* } */
 
